@@ -1,0 +1,110 @@
+html, body {
+  height: 100%;
+}
+
+/*body {
+	font-family: 'Cairo', sans-serif;
+}*/
+body {
+ font-family: 'Quicksand', sans-serif;
+ font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ font-weight: 500;
+}
+
+.side-icon {
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.noborder {
+	border: none;
+}
+
+.create-note {
+	background-color: #fff;
+	border: none;
+	margin-left: 15px;
+	cursor: pointer;
+}
+
+.create-note-icon {
+	font-size: 30px;
+	color: lightgray;
+}
+
+.search {
+	border-radius: 5px;
+	height: 35px;
+}
+
+.sidebar:hover,
+.tag:hover,
+.side-icon:hover {
+	background-color: #2e3235;
+	color: #fff;
+}
+
+.sidebar {
+	background-color: #2e3235;
+	min-height: 100%;
+	padding-right: 0;
+}
+
+.tag {
+	font-weight: 500;
+	background: #2e3235;
+	color: white;
+	cursor: pointer;
+}
+
+.note-title, .content-title {
+	color: #32302f;
+}
+
+.note-snippet {
+	color: #bcc3cc;
+}
+
+.single-note {
+	border-top: none;
+}
+
+.container-fluid {
+	padding: 0 15px 0 0;
+}
+
+.active-note {
+	background-color: #414747;
+}
+
+.notes-bar {
+	padding: 0;
+	border-right: 1px solid #e5e5e5;
+}
+
+.side-tags-section {
+	margin-top: 20px;
+}
+
+.contents-bar {
+	padding: 40px 60px 0px 35px;
+}
+
+.content-title {
+	font-size: 35px;
+	font-weight: 600;
+}
+
+.content-body {
+	margin-top: 30px;
+  font-size: 18px;
+  line-height: 35px;
+  color: #525050;
+}
+
+.notes-list {
+	cursor: pointer;
+}
