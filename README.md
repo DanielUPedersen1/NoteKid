@@ -1,2 +1,2 @@
 # NoteKid
-[!][NoteKid](notekid.png)
+![NoteKid](notekid.png)
