@@ -33,7 +33,7 @@
     <script src="assets/js/bootstrap.min.js" ></script>
     <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
     <script type="text/javascript" src="assets/js/script.js"></script>
-    <script type="text/javascript">
+    {{-- <script type="text/javascript">
       function customMarkdownParser(plainText) {
         console.log(plainText);
         return plainText;
@@ -49,6 +49,6 @@
       });
 
       $('.CodeMirror-wrap').css({'border': 'none', 'padding': 0});
-    </script>
+    </script> --}}
   </body>
 </html>

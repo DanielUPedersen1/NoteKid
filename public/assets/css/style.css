@@ -93,12 +93,12 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 40px 60px 0px 35px;
 }
 
-.content-title {
+#content-title {
 	font-size: 35px;
 	font-weight: 600;
 }
 
-.content-body {
+#content-body {
 	margin-top: 30px;
   font-size: 18px;
   line-height: 35px;
