@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
 	border-right: 1px solid #e5e5e5;
 }
 
-.side-tags-section {
+#side-tags-section {
 	margin-top: 20px;
 }
 
@@ -105,6 +105,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #525050;
 }
 
-.notes-list {
+#notes-list {
 	cursor: pointer;
 }
