@@ -23,16 +23,16 @@
   </head>
   <body>
     <div class="container-fluid">
-      @yield('contents')
+      @yield('content')
     </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="assets/js/jquery-3.2.1.slim.min.js" ></script>
+    <script src="assets/js/jquery-3.6.0.min.js" ></script>
     <script src="assets/js/popper.min.js" ></script>
     <script src="assets/js/bootstrap.min.js" ></script>
     <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
-    <script type="text/javascript" src="assets/script.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
     <script type="text/javascript">
       function customMarkdownParser(plainText) {
         console.log(plainText);

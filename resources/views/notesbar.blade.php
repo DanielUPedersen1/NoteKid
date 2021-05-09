@@ -8,7 +8,7 @@
   </div>
 </div>
 <hr></hr>
-<ul class="list-group list-group-flush notes-list">
+<ul class="list-group list-group-flush notes-list" onload="getNotes()">
   <li class="list-group-item single-note pt-1 pb-1">
     <span class="note-title"><h5>Grocery List</h5></span>
     <p class="note-snippet">Get flour, sweets, cakes and cady and also grab some more stuff to make...</p>

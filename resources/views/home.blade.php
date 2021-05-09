@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('contents')
+@section('content')
 
 <div class="row">
   <div class="col-md-2 sidebar">
