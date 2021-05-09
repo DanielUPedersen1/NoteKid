@@ -8,29 +8,9 @@
   </div>
 </div>
 <hr></hr>
-<ul class="list-group list-group-flush notes-list" onload="getNotes()">
-  <li class="list-group-item single-note pt-1 pb-1">
-    <span class="note-title"><h5>Grocery List</h5></span>
-    <p class="note-snippet">Get flour, sweets, cakes and cady and also grab some more stuff to make...</p>
-  </li>
-  <li class="list-group-item single-note pt-1 pb-1">
-    <span class="note-title"><h5>Quotes</h5></span>
-    <p class="note-snippet">Get flour, sweets, cakes and cady and also grab some more stuff to make...</p>
-  </li>
-  <li class="list-group-item single-note pt-1 pb-1">
-    <span class="note-title"><h5>Jokes</h5></span>
-    <p class="note-snippet">Get flour, sweets, cakes and cady and also grab some more stuff to make...</p>
-  </li>
-  <li class="list-group-item single-note pt-1 pb-1">
-    <span class="note-title"><h5>Recipies</h5></span>
-    <p class="note-snippet">Get flour, sweets, cakes and cady and also grab some more stuff to make...</p>
-  </li>
-  <li class="list-group-item single-note pt-1 pb-1">
-    <span class="note-title"><h5>Finances</h5></span>
-    <p class="note-snippet">Get flour, sweets, cakes and cady and also grab some more stuff to make...</p>
-  </li>
-  <li class="list-group-item single-note pt-1 pb-1">
-    <span class="note-title"><h5>Snippets</h5></span>
+<ul class="list-group list-group-flush notes-list">
+  <li class="list-group-item single-note cloneable-note pt-1 pb-1" style="display: none;">
+    <span class="note-title"><h5 class="note-title-text">Grocery List</h5></span>
     <p class="note-snippet">Get flour, sweets, cakes and cady and also grab some more stuff to make...</p>
   </li>
 </ul>
