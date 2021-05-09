@@ -1,4 +1,9 @@
 $(document).ready(function() {
+	function customMarkdownParser(plainText) {
+    console.log(plainText);
+    return plainText;
+  }
+
 	function getNotes(params = false) {
 		$.ajax({
 		  url: "/notes",
@@ -8,14 +13,14 @@ $(document).ready(function() {
 					var current = $('.cloneable-note').clone();
 					$(current).removeClass('cloneable-note');
 					$(current).find('.note-title-text').text(note.title);
-					$(current).find('.note-snippet').text(note.title);
+					$(current).find('.note-snippet').text(note.content.substring(0,75) + '...');
 					$(current).appendTo('#notes-list').show();
 
 					// if this is first note, also display
 					// in reading panel
 					if (key < 1) {
 						$('#content-title > #content-title-text').text(note.title);
-						$('#content-body').text(note.content)
+						simplemde.value(note.content)
 					}
 				});
 		  },
@@ -42,6 +47,18 @@ $(document).ready(function() {
 		  }
 		});
 	}
+
+	var simplemde = new SimpleMDE({
+    element: $("#content-body")[0],
+    status: false,
+    toolbar: false,
+    spellChecker: false,
+    previewRender: function(plainText) {
+      return customMarkdownParser(plainText); // Returns HTML from a custom parser
+    }
+  });
+
+  $('.CodeMirror-wrap').css({'border': 'none', 'padding': 0});
 
 	getTags();
 	getNotes();
